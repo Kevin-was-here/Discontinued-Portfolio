@@ -1,28 +1,13 @@
-import React,{ componet } from 'react';
-import path from 'path'
+import './App.scss'
+import{ Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
 
-class App extends Componet {
-  render(){
-    return(
-      <div>
-        {/*welcome*/}
-        <WelcomeBlock>
-
-        </WelcomeBlock>
-
-        {/*Projects*/}
-        <ProjectsBlock>
-
-        </ProjectsBlock>
-
-        {/*Get in touch*/}
-        <ContactsBlock>
-
-        </ContactsBlock>
-      </div>
-    )
-  };
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}/>      
+    </Routes>
+  )
 }
-
 
 export default App;
