@@ -1,7 +1,8 @@
-.logo-container{
+.logo-container {
   z-index: 0;
   width: 400px;
-  height:609px;
+  height: 609px;
+  opacity: 0;
   position: absolute;
   top: 0;
   right: 15%;
@@ -9,14 +10,14 @@
   left: auto;
   margin: auto;
 
-  svg{
+  svg {
     width: 100%;
     height: auto;
     bottom: 0;
     transform: rotateZ(30deg) !important;
   }
-  
-  .solid-log{
+
+  .solid-logo {
     position: absolute;
     top: auto;
     right: auto;
@@ -25,12 +26,12 @@
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(30deg);
+    transform: rotateZ(30deg) !important;
     z-index: 1;
   }
 }
 
-.svg-container{
+.svg-container {
   stroke: #ffd700;
   stroke-width: 10;
 }
