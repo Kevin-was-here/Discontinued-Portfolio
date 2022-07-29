@@ -17,21 +17,21 @@
     font-weight: 400;
 
     &::before{
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
-      font-size: 18px;
+      content: 'return (';
+      font: courier bold;
+      font-size: 20px;
       color: #ffd700;
       position: absolute;
       margin-top: -40px;
-      left: 15px;
+      left: 0px;
       opacity: 0.6;
     }
 
     &::after{
-      content: '<h1/>';
-      font-family: 'La Belle Aurore';
+      content: ');';
+      font-family: courier bold;
       color: #ffd700;
-      font-size: 18px;
+      font-size: 20px;
       position: absolute;
       margin-top: 18px;
       margin-left: 20px;
@@ -40,8 +40,9 @@
     }
 
     img{
-      width: 32px;
+      width: 40px;
       margin-left: 20px;
+      margin-right: -15px;
       opacity: 0;
       height: auto;
       animation: rotateIn 1s linear both;
