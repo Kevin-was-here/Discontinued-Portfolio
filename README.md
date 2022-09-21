@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was created as a extention of [this tutorial](https://www.youtube.com/watch?v=bmpI252DmiI), all creadits go to Slobodan and FreeCodeCamp.org for offering this tutorial.\
+Project was discontinued due to certain packages being not updated/unavaliable making certain important parts unusable, will try to restore if oppertunity allows.
 
 ## Available Scripts
 
