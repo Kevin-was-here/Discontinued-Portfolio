@@ -1,6 +1,6 @@
+import Loader from 'react-loaders'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/LetterK.png'
 import Logo from './Logo'
@@ -41,8 +41,8 @@ const Home = () =>{
           <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         </div>
         <Logo />
-      </div>
-      <Loader type='pacman' />
+      </div> 
+      <Loader type='pacman'/>
     </>
   ); 
 }
